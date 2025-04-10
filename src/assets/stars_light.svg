@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1920 1080" style="position: fixed; top: 0; left: 0; z-index: -1;">
+  <defs>
+    <!-- Softer glow filter -->
+    <filter id="glow-light" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Star shapes (scaled up) -->
+    <path id="star1" d="M3,0 L4.5,3 L8,3 L5,5 L6,8 L3,6 L0,8 L1,5 L-2,3 L1.5,3 Z" transform="scale(0.6)"/>
+    <path id="star2" d="M4,0 L6,4 L10,4 L7,7 L8,10 L4,8 L0,10 L1,7 L-2,4 L2,4 Z" transform="scale(0.5)"/>
+    <path id="star3" d="M3,0 L4,2.5 L7,2.5 L4.5,4.5 L5.5,7 L3,5.5 L0.5,7 L1.5,4.5 L-1,2.5 L2,2.5 Z" transform="scale(0.55)"/>
+  </defs>
+  
+  <!-- Stars with pastel colors (full set) -->
+  <use href="#star1" x="1558" y="401" fill="#FFD6A8" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star2" x="550" y="373" fill="#D4BBFF" opacity="0.45" filter="url(#glow-light)"/>
+  <use href="#star3" x="1826" y="534" fill="#A0C3FF" opacity="0.4" filter="url(#glow-light)"/>
+  <use href="#star1" x="1178" y="13" fill="#D4BBFF" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star2" x="844" y="515" fill="#FFD6A8" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star3" x="1231" y="222" fill="#A0C3FF" opacity="0.45" filter="url(#glow-light)"/>
+  <use href="#star1" x="993" y="1018" fill="#D4BBFF" opacity="0.4" filter="url(#glow-light)"/>
+  <use href="#star2" x="1442" y="127" fill="#FFD6A8" opacity="0.45" filter="url(#glow-light)"/>
+  <use href="#star3" x="523" y="686" fill="#A0C3FF" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star1" x="1706" y="335" fill="#D4BBFF" opacity="0.45" filter="url(#glow-light)"/>
+  <use href="#star2" x="93" y="136" fill="#FFD6A8" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star3" x="36" y="723" fill="#A0C3FF" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star1" x="526" y="873" fill="#D4BBFF" opacity="0.6" filter="url(#glow-light)"/>
+  <use href="#star2" x="1373" y="819" fill="#FFD6A8" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star3" x="1266" y="142" fill="#A0C3FF" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star1" x="80" y="67" fill="#D4BBFF" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star2" x="352" y="240" fill="#FFD6A8" opacity="0.4" filter="url(#glow-light)"/>
+  <use href="#star3" x="1376" y="880" fill="#A0C3FF" opacity="0.45" filter="url(#glow-light)"/>
+  <use href="#star1" x="71" y="459" fill="#D4BBFF" opacity="0.6" filter="url(#glow-light)"/>
+  <use href="#star2" x="36" y="937" fill="#FFD6A8" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star3" x="7" y="313" fill="#A0C3FF" opacity="0.4" filter="url(#glow-light)"/>
+  <use href="#star1" x="1273" y="492" fill="#D4BBFF" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star2" x="1249" y="40" fill="#FFD6A8" opacity="0.45" filter="url(#glow-light)"/>
+  <use href="#star3" x="1573" y="913" fill="#A0C3FF" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star1" x="1736" y="762" fill="#D4BBFF" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star2" x="307" y="914" fill="#FFD6A8" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star3" x="1038" y="662" fill="#A0C3FF" opacity="0.4" filter="url(#glow-light)"/>
+  <use href="#star1" x="948" y="500" fill="#D4BBFF" opacity="0.6" filter="url(#glow-light)"/>
+  <use href="#star2" x="464" y="426" fill="#FFD6A8" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star3" x="1189" y="474" fill="#A0C3FF" opacity="0.6" filter="url(#glow-light)"/>
+  <use href="#star1" x="728" y="897" fill="#D4BBFF" opacity="0.45" filter="url(#glow-light)"/>
+  <use href="#star2" x="1781" y="634" fill="#FFD6A8" opacity="0.4" filter="url(#glow-light)"/>
+  <use href="#star3" x="222" y="81" fill="#A0C3FF" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star1" x="1533" y="369" fill="#D4BBFF" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star2" x="1336" y="829" fill="#FFD6A8" opacity="0.6" filter="url(#glow-light)"/>
+  <use href="#star3" x="1032" y="504" fill="#A0C3FF" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star1" x="1767" y="235" fill="#D4BBFF" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star2" x="129" y="715" fill="#FFD6A8" opacity="0.45" filter="url(#glow-light)"/>
+  <use href="#star3" x="1212" y="121" fill="#A0C3FF" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star1" x="1585" y="223" fill="#D4BBFF" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star2" x="752" y="809" fill="#FFD6A8" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star3" x="560" y="679" fill="#A0C3FF" opacity="0.4" filter="url(#glow-light)"/>
+  <use href="#star1" x="1667" y="840" fill="#D4BBFF" opacity="0.6" filter="url(#glow-light)"/>
+  <use href="#star2" x="1801" y="808" fill="#FFD6A8" opacity="0.4" filter="url(#glow-light)"/>
+  <use href="#star3" x="1579" y="434" fill="#A0C3FF" opacity="0.6" filter="url(#glow-light)"/>
+  
+  <!-- Additional stars (40 more) -->
+  <use href="#star1" x="200" y="900" fill="#D4BBFF" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star2" x="420" y="150" fill="#FFD6A8" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star3" x="1500" y="950" fill="#A0C3FF" opacity="0.45" filter="url(#glow-light)"/>
+  <use href="#star1" x="300" y="300" fill="#D4BBFF" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star2" x="1600" y="200" fill="#FFD6A8" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star3" x="100" y="1000" fill="#A0C3FF" opacity="0.4" filter="url(#glow-light)"/>
+  <use href="#star1" x="1800" y="100" fill="#D4BBFF" opacity="0.45" filter="url(#glow-light)"/>
+  <use href="#star2" x="250" y="450" fill="#FFD6A8" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star3" x="1750" y="850" fill="#A0C3FF" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star1" x="500" y="700" fill="#D4BBFF" opacity="0.65" filter="url(#glow-light)"/>
+  <use href="#star2" x="1400" y="400" fill="#FFD6A8" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star3" x="50" y="50" fill="#A0C3FF" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star1" x="1900" y="1050" fill="#D4BBFF" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star2" x="350" y="750" fill="#FFD6A8" opacity="0.4" filter="url(#glow-light)"/>
+  <use href="#star3" x="1650" y="150" fill="#A0C3FF" opacity="0.45" filter="url(#glow-light)"/>
+  <use href="#star1" x="750" y="250" fill="#D4BBFF" opacity="0.65" filter="url(#glow-light)"/>
+  <use href="#star2" x="1250" y="750" fill="#FFD6A8" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star3" x="150" y="850" fill="#A0C3FF" opacity="0.4" filter="url(#glow-light)"/>
+  <use href="#star1" x="1850" y="350" fill="#D4BBFF" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star2" x="450" y="950" fill="#FFD6A8" opacity="0.45" filter="url(#glow-light)"/>
+  <use href="#star3" x="1350" y="50" fill="#A0C3FF" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star1" x="850" y="650" fill="#D4BBFF" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star2" x="950" y="350" fill="#FFD6A8" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star3" x="250" y="150" fill="#A0C3FF" opacity="0.4" filter="url(#glow-light)"/>
+  <use href="#star1" x="1650" y="650" fill="#D4BBFF" opacity="0.65" filter="url(#glow-light)"/>
+  <use href="#star2" x="550" y="250" fill="#FFD6A8" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star3" x="1550" y="950" fill="#A0C3FF" opacity="0.65" filter="url(#glow-light)"/>
+  <use href="#star1" x="650" y="450" fill="#D4BBFF" opacity="0.45" filter="url(#glow-light)"/>
+  <use href="#star2" x="1150" y="150" fill="#FFD6A8" opacity="0.4" filter="url(#glow-light)"/>
+  <use href="#star3" x="350" y="550" fill="#A0C3FF" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star1" x="1450" y="250" fill="#D4BBFF" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star2" x="750" y="950" fill="#FFD6A8" opacity="0.65" filter="url(#glow-light)"/>
+  <use href="#star3" x="50" y="650" fill="#A0C3FF" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star1" x="1750" y="450" fill="#D4BBFF" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star2" x="850" y="150" fill="#FFD6A8" opacity="0.45" filter="url(#glow-light)"/>
+  <use href="#star3" x="1250" y="850" fill="#A0C3FF" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star1" x="150" y="250" fill="#D4BBFF" opacity="0.5" filter="url(#glow-light)"/>
+  <use href="#star2" x="1150" y="550" fill="#FFD6A8" opacity="0.55" filter="url(#glow-light)"/>
+  <use href="#star3" x="250" y="750" fill="#A0C3FF" opacity="0.4" filter="url(#glow-light)"/>
+</svg>
